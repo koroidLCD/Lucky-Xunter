@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		049B52372B3B3FA50011CF2A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049B52362B3B3FA50011CF2A /* GoogleService-Info.plist */; };
+		04F5EEE32B3472F4000A128F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5EEE22B3472F4000A128F /* AppDelegate.swift */; };
+		04F5EEE92B3472F4000A128F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5EEE82B3472F4000A128F /* GameScene.swift */; };
+		04F5EEEE2B3472F4000A128F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F5EEEC2B3472F4000A128F /* Main.storyboard */; };
+		04F5EEF02B3472F5000A128F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F5EEEF2B3472F5000A128F /* Assets.xcassets */; };
+		04F5EEF32B3472F5000A128F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F5EEF12B3472F5000A128F /* LaunchScreen.storyboard */; };
+		04F5EEFA2B34740F000A128F /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5EEF92B34740F000A128F /* LoadingViewController.swift */; };
+		04F5EEFC2B347419000A128F /* MenuViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5EEFB2B347419000A128F /* MenuViewControler.swift */; };
+		04F5EEFE2B34742C000A128F /* MainGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5EEFD2B34742C000A128F /* MainGameViewController.swift */; };
+		04F5EF002B347437000A128F /* BonusGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5EEFF2B347437000A128F /* BonusGameViewController.swift */; };
+		04F5EF082B34EE4C000A128F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5EF072B34EE4C000A128F /* Extensions.swift */; };
+		04F5EF0A2B34EE61000A128F /* UserMoney.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5EF092B34EE61000A128F /* UserMoney.swift */; };
+		04F5EF0C2B34EE95000A128F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5EF0B2B34EE95000A128F /* Model.swift */; };
+		04F5EF0E2B34EF32000A128F /* Managers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5EF0D2B34EF32000A128F /* Managers.swift */; };
+		04F5EF102B34EF73000A128F /* CustomStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5EF0F2B34EF73000A128F /* CustomStepper.swift */; };
+		04F5EF122B35BBC2000A128F /* RewardsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5EF112B35BBC2000A128F /* RewardsManager.swift */; };
+		04F5EF142B35BD1A000A128F /* RewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5EF132B35BD1A000A128F /* RewardsViewController.swift */; };
+		120673FE15BCD3321832296D /* Pods_Lucky_Xunter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA5DBA7A94AB40D65F2E434 /* Pods_Lucky_Xunter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		049B52362B3B3FA50011CF2A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		04F5EEDF2B3472F4000A128F /* Lucky-Xunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lucky-Xunter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F5EEE22B3472F4000A128F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04F5EEE82B3472F4000A128F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		04F5EEED2B3472F4000A128F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04F5EEEF2B3472F5000A128F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04F5EEF22B3472F5000A128F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04F5EEF92B34740F000A128F /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		04F5EEFB2B347419000A128F /* MenuViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewControler.swift; sourceTree = "<group>"; };
+		04F5EEFD2B34742C000A128F /* MainGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGameViewController.swift; sourceTree = "<group>"; };
+		04F5EEFF2B347437000A128F /* BonusGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusGameViewController.swift; sourceTree = "<group>"; };
+		04F5EF012B34754E000A128F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F5EF032B347592000A128F /* Lucky-Xunter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Lucky-Xunter.entitlements"; sourceTree = "<group>"; };
+		04F5EF072B34EE4C000A128F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		04F5EF092B34EE61000A128F /* UserMoney.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMoney.swift; sourceTree = "<group>"; };
+		04F5EF0B2B34EE95000A128F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		04F5EF0D2B34EF32000A128F /* Managers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Managers.swift; sourceTree = "<group>"; };
+		04F5EF0F2B34EF73000A128F /* CustomStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStepper.swift; sourceTree = "<group>"; };
+		04F5EF112B35BBC2000A128F /* RewardsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsManager.swift; sourceTree = "<group>"; };
+		04F5EF132B35BD1A000A128F /* RewardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsViewController.swift; sourceTree = "<group>"; };
+		2CA5DBA7A94AB40D65F2E434 /* Pods_Lucky_Xunter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lucky_Xunter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59AE6D0AD89BA48150F1707C /* Pods-Lucky-Xunter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lucky-Xunter.release.xcconfig"; path = "Target Support Files/Pods-Lucky-Xunter/Pods-Lucky-Xunter.release.xcconfig"; sourceTree = "<group>"; };
+		9E69A45FF2558A41D6B4540D /* Pods-Lucky-Xunter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lucky-Xunter.debug.xcconfig"; path = "Target Support Files/Pods-Lucky-Xunter/Pods-Lucky-Xunter.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F5EEDC2B3472F4000A128F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120673FE15BCD3321832296D /* Pods_Lucky_Xunter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F5EED62B3472F4000A128F = {
+			isa = PBXGroup;
+			children = (
+				04F5EEE12B3472F4000A128F /* Lucky-Xunter */,
+				04F5EEE02B3472F4000A128F /* Products */,
+				6634F75F3C97823CEC243273 /* Pods */,
+				7907F68FC223C8987AF3564A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04F5EEE02B3472F4000A128F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F5EEDF2B3472F4000A128F /* Lucky-Xunter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F5EEE12B3472F4000A128F /* Lucky-Xunter */ = {
+			isa = PBXGroup;
+			children = (
+				04F5EF062B34EE34000A128F /* SlotGame */,
+				04F5EF032B347592000A128F /* Lucky-Xunter.entitlements */,
+				04F5EEE22B3472F4000A128F /* AppDelegate.swift */,
+				04F5EEE82B3472F4000A128F /* GameScene.swift */,
+				04F5EEEC2B3472F4000A128F /* Main.storyboard */,
+				04F5EEEF2B3472F5000A128F /* Assets.xcassets */,
+				04F5EEF12B3472F5000A128F /* LaunchScreen.storyboard */,
+				04F5EEF92B34740F000A128F /* LoadingViewController.swift */,
+				04F5EEFB2B347419000A128F /* MenuViewControler.swift */,
+				04F5EEFF2B347437000A128F /* BonusGameViewController.swift */,
+				04F5EF012B34754E000A128F /* Info.plist */,
+				04F5EF132B35BD1A000A128F /* RewardsViewController.swift */,
+				049B52362B3B3FA50011CF2A /* GoogleService-Info.plist */,
+			);
+			path = "Lucky-Xunter";
+			sourceTree = "<group>";
+		};
+		04F5EF062B34EE34000A128F /* SlotGame */ = {
+			isa = PBXGroup;
+			children = (
+				04F5EF072B34EE4C000A128F /* Extensions.swift */,
+				04F5EF092B34EE61000A128F /* UserMoney.swift */,
+				04F5EEFD2B34742C000A128F /* MainGameViewController.swift */,
+				04F5EF0B2B34EE95000A128F /* Model.swift */,
+				04F5EF0D2B34EF32000A128F /* Managers.swift */,
+				04F5EF0F2B34EF73000A128F /* CustomStepper.swift */,
+				04F5EF112B35BBC2000A128F /* RewardsManager.swift */,
+			);
+			path = SlotGame;
+			sourceTree = "<group>";
+		};
+		6634F75F3C97823CEC243273 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E69A45FF2558A41D6B4540D /* Pods-Lucky-Xunter.debug.xcconfig */,
+				59AE6D0AD89BA48150F1707C /* Pods-Lucky-Xunter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7907F68FC223C8987AF3564A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CA5DBA7A94AB40D65F2E434 /* Pods_Lucky_Xunter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F5EEDE2B3472F4000A128F /* Lucky-Xunter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F5EEF62B3472F5000A128F /* Build configuration list for PBXNativeTarget "Lucky-Xunter" */;
+			buildPhases = (
+				702352267FE6DD263FB74EB5 /* [CP] Check Pods Manifest.lock */,
+				04F5EEDB2B3472F4000A128F /* Sources */,
+				04F5EEDC2B3472F4000A128F /* Frameworks */,
+				04F5EEDD2B3472F4000A128F /* Resources */,
+				FE2925B17CF27015B14F6EC1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lucky-Xunter";
+			productName = "Lucky-Xunter";
+			productReference = 04F5EEDF2B3472F4000A128F /* Lucky-Xunter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F5EED72B3472F4000A128F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					04F5EEDE2B3472F4000A128F = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 04F5EEDA2B3472F4000A128F /* Build configuration list for PBXProject "Lucky-Xunter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04F5EED62B3472F4000A128F;
+			productRefGroup = 04F5EEE02B3472F4000A128F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F5EEDE2B3472F4000A128F /* Lucky-Xunter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F5EEDD2B3472F4000A128F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049B52372B3B3FA50011CF2A /* GoogleService-Info.plist in Resources */,
+				04F5EEEE2B3472F4000A128F /* Main.storyboard in Resources */,
+				04F5EEF02B3472F5000A128F /* Assets.xcassets in Resources */,
+				04F5EEF32B3472F5000A128F /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		702352267FE6DD263FB74EB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lucky-Xunter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE2925B17CF27015B14F6EC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lucky-Xunter/Pods-Lucky-Xunter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lucky-Xunter/Pods-Lucky-Xunter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lucky-Xunter/Pods-Lucky-Xunter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F5EEDB2B3472F4000A128F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F5EF0C2B34EE95000A128F /* Model.swift in Sources */,
+				04F5EF142B35BD1A000A128F /* RewardsViewController.swift in Sources */,
+				04F5EF122B35BBC2000A128F /* RewardsManager.swift in Sources */,
+				04F5EEFE2B34742C000A128F /* MainGameViewController.swift in Sources */,
+				04F5EF0A2B34EE61000A128F /* UserMoney.swift in Sources */,
+				04F5EEE92B3472F4000A128F /* GameScene.swift in Sources */,
+				04F5EEE32B3472F4000A128F /* AppDelegate.swift in Sources */,
+				04F5EF0E2B34EF32000A128F /* Managers.swift in Sources */,
+				04F5EEFC2B347419000A128F /* MenuViewControler.swift in Sources */,
+				04F5EF002B347437000A128F /* BonusGameViewController.swift in Sources */,
+				04F5EF102B34EF73000A128F /* CustomStepper.swift in Sources */,
+				04F5EEFA2B34740F000A128F /* LoadingViewController.swift in Sources */,
+				04F5EF082B34EE4C000A128F /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04F5EEEC2B3472F4000A128F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F5EEED2B3472F4000A128F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04F5EEF12B3472F5000A128F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F5EEF22B3472F5000A128F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04F5EEF42B3472F5000A128F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04F5EEF52B3472F5000A128F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04F5EEF72B3472F5000A128F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E69A45FF2558A41D6B4540D /* Pods-Lucky-Xunter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Lucky-Xunter/Lucky-Xunter.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = L3232P994Q;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Lucky-Xunter/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Lucky-Xunter";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lckxntr.Lucky-Xunter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = luckyxunterpp;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04F5EEF82B3472F5000A128F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59AE6D0AD89BA48150F1707C /* Pods-Lucky-Xunter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Lucky-Xunter/Lucky-Xunter.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = L3232P994Q;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Lucky-Xunter/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Lucky-Xunter";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lckxntr.Lucky-Xunter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = luckyxunterpp;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F5EEDA2B3472F4000A128F /* Build configuration list for PBXProject "Lucky-Xunter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F5EEF42B3472F5000A128F /* Debug */,
+				04F5EEF52B3472F5000A128F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F5EEF62B3472F5000A128F /* Build configuration list for PBXNativeTarget "Lucky-Xunter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F5EEF72B3472F5000A128F /* Debug */,
+				04F5EEF82B3472F5000A128F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04F5EED72B3472F4000A128F /* Project object */;
+}
