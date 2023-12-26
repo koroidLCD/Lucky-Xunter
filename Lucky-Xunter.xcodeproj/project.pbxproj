@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		049B52372B3B3FA50011CF2A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049B52362B3B3FA50011CF2A /* GoogleService-Info.plist */; };
+		049B52392B3B44660011CF2A /* codemagic.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 049B52382B3B44660011CF2A /* codemagic.yaml */; };
 		04F5EEE32B3472F4000A128F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5EEE22B3472F4000A128F /* AppDelegate.swift */; };
 		04F5EEE92B3472F4000A128F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5EEE82B3472F4000A128F /* GameScene.swift */; };
 		04F5EEEE2B3472F4000A128F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F5EEEC2B3472F4000A128F /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		049B52362B3B3FA50011CF2A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		049B52382B3B44660011CF2A /* codemagic.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = codemagic.yaml; sourceTree = "<group>"; };
 		04F5EEDF2B3472F4000A128F /* Lucky-Xunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lucky-Xunter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F5EEE22B3472F4000A128F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04F5EEE82B3472F4000A128F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 		04F5EED62B3472F4000A128F = {
 			isa = PBXGroup;
 			children = (
+				049B52382B3B44660011CF2A /* codemagic.yaml */,
 				04F5EEE12B3472F4000A128F /* Lucky-Xunter */,
 				04F5EEE02B3472F4000A128F /* Products */,
 				6634F75F3C97823CEC243273 /* Pods */,
@@ -194,6 +197,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049B52392B3B44660011CF2A /* codemagic.yaml in Resources */,
 				049B52372B3B3FA50011CF2A /* GoogleService-Info.plist in Resources */,
 				04F5EEEE2B3472F4000A128F /* Main.storyboard in Resources */,
 				04F5EEF02B3472F5000A128F /* Assets.xcassets in Resources */,
@@ -414,11 +418,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Lucky-Xunter/Lucky-Xunter.entitlements";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = L3232P994Q;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Lucky-Xunter/Info.plist";
@@ -438,7 +441,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lckxntr.Lucky-Xunter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = luckyxunterpp;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -452,11 +454,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Lucky-Xunter/Lucky-Xunter.entitlements";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = L3232P994Q;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Lucky-Xunter/Info.plist";
@@ -476,7 +477,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lckxntr.Lucky-Xunter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = luckyxunterpp;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
